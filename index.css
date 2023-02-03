@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&family=Chonburi&display=swap');
+
 html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #fddde6;
 }
 
 *,
@@ -12,10 +20,35 @@ html {
     padding: 0;
 }
 
+.title {
+    color: #FF597B;
+    font-size: 3.5rem;
+    margin-bottom: .5em;
+    text-decoration: underline;
+    font-family: 'Chonburi', sans-serif;
+}
+
 p {
     margin-bottom: 1rem;
 }
 
 main {
     padding: 1rem;
+    width: 75%;
+    margin: auto;
+}
+
+blockquote {
+    padding: 2rem;
+    background-color: #F9B5D0;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.25rem;
+}
+
+.conclusion {
+    font-weight: bolder;
 }
